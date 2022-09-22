@@ -27,7 +27,7 @@ get_num_song_plot <- function(df, pal) {
 
 get_song_length_plot <- function(df, pal) {
   
-  df <- df %>% mutate(length = stri_sub_replace(str_pad(song_length_lostColon, 3, pad = "0"), 2, 1, value = ":"))
+  df <- df %>% mutate(length = stri_sub_replace(str_pad(song_length_lostColon, 3, pad = "0"), -2, 1, value = ":"))
 
   y_max <- df %>% 
     pull(song_length) %>% 

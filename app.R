@@ -82,9 +82,9 @@ body <- dashboardBody(
     # Peek at the data
     tabItem(tabName = "explore",
             
-            h1("Examine the data"),
+            h1("Explore the data"),
             
-            dataTableOutput("data_peek")
+            DT::dataTableOutput("data_peek")
     )
   )
 )
@@ -98,7 +98,7 @@ ui <- dashboardPage(title = "Honest Bangers Analysis",
 # Defining behaviour
 server <- function(input, output) {
   
-  output$data_peek <- renderDataTable(select(dataset, c("friend", "song_title", "artist", "playlist", "year_num", "song_length", "tender_recollections_2019")), 
+  output$data_peek <- DT::renderDataTable(select(dataset, c("friend", "song_title", "artist", "playlist", "year_num", "song_length", "tender_recollections_2019")), 
                                       filter = list(position = "top", plain = TRUE),
                                       options = list(pageLength = 10))
 
