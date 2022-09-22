@@ -1,18 +1,19 @@
-friend	colour	tone_notes
-AD	"#EFC7E6"	l*
-AF	"#B25D91"	d
-AH	"#F4E3C7"	l
-AS	"#AF6125"	d-
-BZ	"#54BCD1"	l
-DM	"#007BC3"	d*
-GB	"#F4B95A"	l-
-JZ	"#EF7C12"	d*
-KS	"#6C6C9D"	l-
-LL	"#172869"	d
-LV	"#FFFE9B"	l-
-ND	"#FFFC12"	d-
-OD	"#8FDA04"	l*
-RS	"#009F3F"	d
-ST	"#FC6882"	l
-TS	"#C70E7B"	d
-Team Honest	"#000000"	bl
+friend	colour
+AD	"#EFC7E6"
+AF	"#B25D91"
+AH	"#F4E3C7"
+AS	"#AF6125"
+BZ	"#54BCD1"
+DDAJ	"#C8F5EF"
+DM	"#007BC3"
+GB	"#F4B95A"
+JZ	"#EF7C12"
+KS	"#6C6C9D"
+LL	"#172869"
+LV	"#FFFE9B"
+ND	"#FFFC12"
+OD	"#8FDA04"
+RS	"#009F3F"
+ST	"#FC6882"
+TS	"#C70E7B"
+Team Honest	"#000000"
