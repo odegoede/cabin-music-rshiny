@@ -1,0 +1,49 @@
+h1 {
+  font-family: "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  color: darkslateblue;
+}
+
+
+h2 {
+  font-family: "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: steelblue;
+}
+
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  color: #5F1A37;
+}
+
+/* make body background white */
+.content-wrapper,
+.right-side {
+  background-color: white;
+}
+
+/* so that selectize dropdowns are visible if they go off the bottom. */
+.content {
+  overflow: visible;
+}
+
+/* make selected sidebar option have light purple highlight and dark text */
+.skin-blue .sidebar-menu > li:hover > a {
+  background-color: #776885;
+  border-left-color: steelblue;
+}
+
+/* make data table text smaller and dark blue in Explore page */
+thead {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 14px;
+  color: #1A1A1A;
+}
+tbody {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  color: #1A1A1A;
+}
